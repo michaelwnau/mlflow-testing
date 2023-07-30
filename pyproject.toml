@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mlflow-testing"
+version = "0.1.0"
+description = ""
+authors = ["Michael Nau <michaelwnau@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mlflow_testing"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mlflow = "^2.5.0"
+scipy = "^1.11.1"
+xgboost = "^1.7.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
